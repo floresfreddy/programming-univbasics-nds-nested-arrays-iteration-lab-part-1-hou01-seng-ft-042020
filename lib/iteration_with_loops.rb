@@ -6,10 +6,12 @@ def find_even_values(src)
   while src[count] do
     inner_count= 0 
     while src[count][inner_count]
-    if src[count][inner_count]%2 == 0 
+      if src[count][inner_count]%2 == 0 
       p src[coutn][inner_count]
-    end
+      end
     inner_count += 1
-  end 
+    end 
+    count += 1
+  end
   
 end
