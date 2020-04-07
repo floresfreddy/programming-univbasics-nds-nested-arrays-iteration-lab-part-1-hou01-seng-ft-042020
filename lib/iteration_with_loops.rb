@@ -7,7 +7,7 @@ def find_even_values(src)
     inner_count= 0 
     while src[count][inner_count]
       if src[count][inner_count]%2 == 0 
-      p src[coutn][inner_count]
+      p src[count][inner_count]
       end
     inner_count += 1
     end 
